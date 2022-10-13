@@ -1,0 +1,90 @@
+
+  Birth Registration - A windows-platform Birth Registration & Certification
+  Copyright (C) 2021-2030 Sware-Tech.
+
+
+License:
+
+  This program is free software; you can redistribute it and/or modify it under
+  the terms of the GNU General Public License as published by the Free Software
+  Foundation; either version 2 of the License, or (at your option) any later 
+  version.
+
+  This program is distributed in the hope that it will be useful, but WITHOUT
+  ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License along with
+  this program; if not, write to the Free Software Foundation, Inc., 59 Temple
+  Place, Suite 330, Boston, MA 02111-1307 USA.
+
+
+Installing:
+
+    - Installing a server (WAMP or XAMP) on your windows pc
+    - Import the database file in the folder Dump_birth_reg
+
+
+Running:
+
+    - A shortcut icon has been created by the developer/publisher; use
+      it run the application
+  
+
+Requirements:
+
+    - .NET Framework 4.7 and above
+    - C++ Redistribution 2005-2015
+    - WAMP Server, XAMP Server or a Live MySQL Server	
+
+
+  o Birth Registration is most certainly not bug free.
+
+    - The Birth Registration project was started in March 2021, and was/is not
+      tested enough. There are no alpha/beta closed testing groups, so the final
+      users are also testers. Regression tests are always added when a bug
+      is fixed.
+
+
+Credits:
+
+  Project members:
+
+  o Richmond Rejoice ():
+    - Project creator. 
+
+  o Olaiya S. Babayemi ():
+    - Project Supervisor
+
+  o Ajayi J. Ayomidipupo (ajayijubrilayo[at]gmail.com):
+    - Software developer.
+
+  o Wilcox R. Priscillia (wilcoxpriscillia[at]gmail.com):
+    - Wrote the project paperwork.
+
+  Contributors:
+
+    NA	
+
+  Third-party tools included:
+    
+  o Framework:
+    - Bunifu Framework (http://www.bunifuframework.com)
+    
+Greetings:
+
+  o Everybody that helped writing the documentation
+
+  o All users that reported bugs, requested features and as such helped 
+    improving the compiler, language and run-time library somehow.
+
+
+Links:
+
+  o NA
+
+  o External libraries:
+
+    - MySQL: http://dev.mysql.com/
+
+    - Microsoft Office Interop Word: https://docs.microsoft.com

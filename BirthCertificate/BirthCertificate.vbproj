@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6BEC7D84-9559-4D12-A98D-422903EAD447}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>BirthCertificate.My.MyApplication</StartupObject>
+    <RootNamespace>BirthCertificate</RootNamespace>
+    <AssemblyName>Birth Registration</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Birth Registration.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Birth Registration.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu.Licensing">
+      <HintPath>lib\Bunifu.Licensing.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.1.5.3">
+      <HintPath>lib\Bunifu.UI.WinForms.1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuButton">
+      <HintPath>lib\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuCheckBox">
+      <HintPath>lib\Bunifu.UI.WinForms.BunifuCheckBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuCircleProgress">
+      <HintPath>lib\Bunifu.UI.WinForms.BunifuCircleProgress.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuColorTransition">
+      <HintPath>lib\Bunifu.UI.WinForms.BunifuColorTransition.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDataGridView">
+      <HintPath>lib\Bunifu.UI.WinForms.BunifuDataGridView.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDatePicker">
+      <HintPath>lib\Bunifu.UI.WinForms.BunifuDatePicker.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDropdown">
+      <HintPath>lib\Bunifu.UI.WinForms.BunifuDropdown.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuFormDock">
+      <HintPath>lib\Bunifu.UI.WinForms.BunifuFormDock.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuGauge">
+      <HintPath>lib\Bunifu.UI.WinForms.BunifuGauge.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuGradientPanel">
+      <HintPath>lib\Bunifu.UI.WinForms.BunifuGradientPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuGroupBox">
+      <HintPath>lib\Bunifu.UI.WinForms.BunifuGroupBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuImageButton">
+      <HintPath>lib\Bunifu.UI.WinForms.BunifuImageButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuLabel">
+      <HintPath>lib\Bunifu.UI.WinForms.BunifuLabel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPages">
+      <HintPath>lib\Bunifu.UI.WinForms.BunifuPages.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPanel">
+      <HintPath>lib\Bunifu.UI.WinForms.BunifuPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPictureBox">
+      <HintPath>lib\Bunifu.UI.WinForms.BunifuPictureBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuProgressBar">
+      <HintPath>lib\Bunifu.UI.WinForms.BunifuProgressBar.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuRadioButton">
+      <HintPath>lib\Bunifu.UI.WinForms.BunifuRadioButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuRating">
+      <HintPath>lib\Bunifu.UI.WinForms.BunifuRating.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuScrollBar">
+      <HintPath>lib\Bunifu.UI.WinForms.BunifuScrollBar.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuSeparator">
+      <HintPath>lib\Bunifu.UI.WinForms.BunifuSeparator.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuShadowPanel">
+      <HintPath>lib\Bunifu.UI.WinForms.BunifuShadowPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuShapes">
+      <HintPath>lib\Bunifu.UI.WinForms.BunifuShapes.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuSlider">
+      <HintPath>lib\Bunifu.UI.WinForms.BunifuSlider.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuSnackbar">
+      <HintPath>lib\Bunifu.UI.WinForms.BunifuSnackbar.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTextbox">
+      <HintPath>lib\Bunifu.UI.WinForms.BunifuTextbox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuToggleSwitch">
+      <HintPath>lib\Bunifu.UI.WinForms.BunifuToggleSwitch.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuToolTip">
+      <HintPath>lib\Bunifu.UI.WinForms.BunifuToolTip.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTransition">
+      <HintPath>lib\Bunifu.UI.WinForms.BunifuTransition.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuUserControl">
+      <HintPath>lib\Bunifu.UI.WinForms.BunifuUserControl.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.Deprecated">
+      <HintPath>lib\Bunifu.UI.WinForms.Deprecated.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>lib\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.vb">
+      <DependentUpon>Main.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SignUp.Designer.vb">
+      <DependentUpon>SignUp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SignUp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignUp.resx">
+      <DependentUpon>SignUp.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.editorconfig">
+      <Link>.editorconfig</Link>
+    </None>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\npc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\backward -6_3162633.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\forward -7_3162632.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\iconfinder_plus_172525.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Coat_of_arms_of_Nigeria.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Word">
+      <Guid>{00020905-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="logo.ico" />
+    <Content Include="npc.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
